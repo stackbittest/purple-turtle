@@ -14,6 +14,9 @@ sections:
       - task: sleep
         done: false
         how: soundly
+      - task: lorem-ipsum
+        done: false
+        how: lorem-ipsum
       - task: jump
         done: true
         how: high
