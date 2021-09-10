@@ -10,8 +10,8 @@ export default function RootUrlPage(props) {
   return (
       <div data-sb-object-id={ props.uniquepageid }></div>
     <LayoutHello>
-      <TemplateComponent {...props}/></div>
-    </LayoutHello>
+      <TemplateComponent {...props}/>
+    </LayoutHello></div>
   );
 }
 
