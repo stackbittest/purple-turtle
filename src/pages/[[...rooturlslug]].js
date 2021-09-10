@@ -30,6 +30,7 @@ export async function getStaticProps(context) {
   const doc = await getDocByFilePath(extraparams.params.originalfilepath);
   return {
     props: {
+      tokentopass,
       hello: params ? JSON.stringify(params) : "world",
       templatetype: extraparams.params.templatetype,
       ...doc,
