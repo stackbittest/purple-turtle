@@ -13,6 +13,6 @@ export default function AdvancedPage(props) {
     <div data-sb-object-id={ props.uniquepageid }>
       <h1>An advanced page called {props.hello}</h1>
       <div className={styles.testingcss}>{SectionComponents}</div>
-    </>
+    </div>
   );
 }
