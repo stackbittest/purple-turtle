@@ -4,7 +4,7 @@ import styles from './advancedPage.module.css'
 
 export default function AdvancedPage(props) {
   const sections = props.meta.sections;
-  const SectionComponents = sections.map((section) => {
+  const SectionComponents = sections.map((section, index) => {
     let sectionType = section.type.split("_").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join('');
     let Component = sectionComponentTypeList[sectionType];
     return <Component section={section} />;
