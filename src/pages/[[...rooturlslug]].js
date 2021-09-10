@@ -8,7 +8,7 @@ import LayoutHello from "../templates/layoutHello";
 export default function RootUrlPage(props) {
   let TemplateComponent = mdRootTemplateTypeList[props.meta.template];
   return (
-    <div data-sb-object-id={ props.uniquepageid }>
+    <div data-sb-object-id={ props.uniquepageid }>{props.originalfilepath}
     <LayoutHello>
       <TemplateComponent {...props}/>
     </LayoutHello>
