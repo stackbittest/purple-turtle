@@ -9,7 +9,6 @@ export default function RootUrlPage(props) {
   let TemplateComponent = mdRootTemplateTypeList[props.meta.template];
   return (
     <LayoutHello>
-        <div>{JSON.stringify()}</div>
       <TemplateComponent {...props} />
     </LayoutHello>
   );
