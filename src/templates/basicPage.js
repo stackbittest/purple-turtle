@@ -1,9 +1,5 @@
 import React from "react";
 import styles from "./basicPage.module.css";
-import {
-  fieldPath as fpath,
-  objectId as oid
-} from '@stackbit/annotations';
 
 export default function BasicPage(props) {
   return (
