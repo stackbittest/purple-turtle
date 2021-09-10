@@ -12,7 +12,7 @@ export default function AdvancedPage(props) {
   return (
     <div data-sb-object-id={ props.originalfilepath }>
       <h1>An advanced page called {props.hello}</h1>
-      <div className={styles.testingcss} data-sb-field-path="">{SectionComponents}</div>
+      <div className={styles.testingcss} data-sb-field-path="sections">{SectionComponents}</div>
     </div>
   );
 }
