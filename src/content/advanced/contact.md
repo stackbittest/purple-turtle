@@ -8,6 +8,9 @@ sections:
       - task: eat
         done: true
         how: well
+      - task: lorem-ipsum
+        done: false
+        how: lorem-ipsum
       - task: sleep
         done: false
         how: soundly
