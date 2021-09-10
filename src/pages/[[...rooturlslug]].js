@@ -9,7 +9,7 @@ export default function RootUrlPage(props) {
   let TemplateComponent = mdRootTemplateTypeList[props.meta.template];
   return (
     <LayoutHello>
-      <div></div><TemplateComponent {...props}/>
+      <divdiv data-sb-object-id={ props.uniquepageid }></div><TemplateComponent {...props}/>
     </LayoutHello>
   );
 }
