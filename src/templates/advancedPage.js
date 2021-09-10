@@ -7,7 +7,7 @@ export default function AdvancedPage(props) {
   const SectionComponents = sections.map((section, index) => {
     let sectionType = section.type.split("_").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join('');
     let Component = sectionComponentTypeList[sectionType];
-    return <div key={index} data-sb-field-path={`sections[${index}]`}><Component section={section} /></div>;
+    return <div data-sb-field-path={`sections[${index}]`}><Component section={section} /></div>;
   });
   return (
     <div data-sb-object-id={ props.originalfilepath }>
