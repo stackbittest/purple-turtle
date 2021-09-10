@@ -9,7 +9,7 @@ export default function RootUrlPage(props) {
   let TemplateComponent = mdRootTemplateTypeList[props.meta.template];
   return (
     <LayoutHello>
-        <div>{JSON.stringify(props)}</div>
+        <div>{JSON.stringify(props.uniquepageid)}</div>
       <TemplateComponent {...props} />
     </LayoutHello>
   );
