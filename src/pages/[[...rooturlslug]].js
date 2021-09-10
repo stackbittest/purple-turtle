@@ -11,7 +11,6 @@ export default function RootUrlPage(props) {
     <LayoutHello>
       <TemplateComponent {...props}/>
     </LayoutHello>
-    </div>
   );
 }
 
