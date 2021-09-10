@@ -1,4 +1,4 @@
-stackbitVersion: ~0.3.0
+stackbitVersion: ~0.4.0
 ssgName: nextjs
 
 pagesDir: src/content # Indeed, in my MVB example, this is where index.md and about.md live.
