@@ -5,7 +5,7 @@ export default function LayoutHello({ children }) {
   return (
     <div className="hello-layout-wrapper">
       <HeaderComponent />
-      <main className="hello-layout-main" data-sb-object-id={ props.uniquepageid }>
+      <main className="hello-layout-main">
 	    { children }
       </main>
 	  <footer className="hello-layout-footer">Footer placeholder</footer>
