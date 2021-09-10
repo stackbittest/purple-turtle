@@ -3,8 +3,6 @@ template: AdvancedPage
 sections:
   - type: section_pink
     say: I did it!
-  - say: lorem-ipsum
-    type: section_pink
   - type: section_task_list
     accomplishments:
       - task: eat
