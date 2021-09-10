@@ -29,7 +29,7 @@ export async function getStaticProps(context) {
   const doc = await getDocByFilePath(extraparams.params.originalfilepath);
   return {
     props: {
-      originalfilepath: extraparams.params.originalfilepath.replace(process.cwd(), "").slice(1),
+      originalfilepath: extraparams.params.originalfilepath.replace(process.cwd(), "").slice(1), // Thanks Sean.  https://github.com/stackbit/example-nextjs-simple/blob/a0157c3492814f6e57741044b293eb00385bd81c/utils/pages.js#L37
       hello: params ? JSON.stringify(params) : "world",
       templatetype: extraparams.params.templatetype,
       ...doc,
