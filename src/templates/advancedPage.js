@@ -10,9 +10,9 @@ export default function AdvancedPage(props) {
     return <Component section={section} />;
   });
   return (
-    <div  data-sb-object-id={ props.originalfilepath }>
+    <div data-sb-object-id={ props.originalfilepath }>
       <h1>An advanced page called {props.hello}</h1>
       <div className={styles.testingcss}>{SectionComponents}</div>
-    </>
+    </div>
   );
 }
