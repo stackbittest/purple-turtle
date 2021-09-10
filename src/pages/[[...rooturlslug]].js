@@ -31,7 +31,7 @@ export async function getStaticProps(context) {
   const doc = await getDocByFilePath(extraparams.params.originalfilepath);
   return {
     props: {
-      originalfilepath: extraparams.params.originalfilepath.replace('/home/appuser/app/src',''),
+      originalfilepath: pageFilePath.replace(process.cwd(), "").slice(1)extraparams.params.originalfilepath.replace('/home/appuser/app/src',''),
       hello: params ? JSON.stringify(params) : "world",
       templatetype: extraparams.params.templatetype,
       ...doc,
